@@ -22,9 +22,10 @@ span, td, th {
 .page-header {
     height: 60px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-direction: row;
     background-color: #0a0a0a;
+    font-size: 0.75rem;
     width: 100%;
     position: fixed;
     top: 0;
@@ -35,19 +36,19 @@ span, td, th {
 
 .page-header div:first-child {
     border-right: 1px solid #414141;
-    font-size: 1.5rem;
-    padding: 12px 15px;
+    padding: 19px 15px;
 }
 .page-header div:last-child {
     display: flex;
     align-items: center;
 }
-.page-header img {
-    padding: 0 14px;
+.page-header div:last-child img {
+    margin: 0 14px;
+    width: 40px;
 }
-.page-header div:last-child > span {
+.page-header div > span {
     color: #acacac;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat';    
 }
 .page-header h3 {
     margin: 0;
@@ -137,7 +138,7 @@ main>h2 {
 }
 .grid-controls .btn-group .dropdown-toggle-split{
     padding: 0 14px;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #bdbdbd;
 }
 .grid-controls .btn-group:hover .dropdown-menu {
     display: block;    
